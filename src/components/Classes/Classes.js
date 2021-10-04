@@ -26,14 +26,19 @@ const Classes = () => {
     <Box sx={{ flexGrow: 1, p: 10 }} style={style}>
       <Typography
         variant="h2"
-        sx={{ display: "flex", justifyContent: "center",mb:5,fontWeight:"bold" }}
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          mb: 5,
+          fontWeight: "bold",
+        }}
         style={titleStyle}
       >
         Our Offered Classes
       </Typography>
       <Grid container spacing={{ sm: 2, md: 3 }}>
         {classes.map((singleClass) => (
-          <Grid item md={12} lg={6}>
+          <Grid item key={singleClass.id} md={12} lg={6}>
             <SingleClass
               singleClass={singleClass}
               key={singleClass.id}
