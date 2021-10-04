@@ -1,6 +1,6 @@
 # Website: Infinity Dance Inc.
 
-Live Website Link [Infinity Dance Inc.](https://sharp-mahavira-48fc46.netlify.app/).
+Live Website Link [Infinity Dance Inc.](https://sharp-mahavira-48fc46.netlify.app/)
 
 ## About Infinity Dance Inc. Website
 
