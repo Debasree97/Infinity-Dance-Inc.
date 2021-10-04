@@ -25,7 +25,7 @@ const HomepageServices = () => {
       }}
     >
       <Typography variant="h2" sx={{ fontWeight: "bold", mt:20, mb:5}} style={titleStyle}>
-        Check Out Our Servies
+        Check Out Our Services
       </Typography>
       <ImageList sx={{mb:20}}>
         {services.map((service) => (
