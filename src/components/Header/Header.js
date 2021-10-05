@@ -11,6 +11,10 @@ const Header = () => {
   };
   const activeStyle = {
     color: "#b895a1",
+    padding: "5px",
+    borderRadius: "5px",
+    boxShadow: "inset 3px 3px lightgray",
+    backgroundColor: "#d3d3d333",
   };
   const imgStyle = {
     width: "180px",

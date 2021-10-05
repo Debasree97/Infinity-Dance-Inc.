@@ -19,8 +19,8 @@ const Footer = () => {
       <Box>
         <img src={logo2} alt="" />
       </Box>
-      <Box sx={{ color: "white", pb: 2 }}>
-        <small>Copyright &#169; 2021 Debasree Bhowmik</small>
+      <Box sx={{ color: "white", py: 4 }}>
+        <small>&#169; All rights reserved by Infinity Dance Inc, 2021</small>
       </Box>
     </Box>
   );
